@@ -16,7 +16,7 @@ target 'wash' do
   
   ## themes
   # - dark mode
-  pod "FluentDarkModeKit"
+  #pod "FluentDarkModeKit"
   
   ## components
   # - swift entry kit
@@ -25,8 +25,6 @@ target 'wash' do
   # - magazine layout
   pod 'MagazineLayout'
   
-  
-
   target 'washTests' do
     inherit! :search_paths
     # Pods for testing

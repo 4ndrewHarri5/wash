@@ -3,6 +3,7 @@ PODS:
     - Kingfisher/Core (= 5.13.2)
   - Kingfisher/Core (5.13.2)
   - MagazineLayout (1.5.5)
+  - NightNight (0.5.0)
   - QuickLayout (3.0.0)
   - SwiftEntryKit (1.2.3):
     - QuickLayout (= 3.0.0)
@@ -11,6 +12,7 @@ PODS:
 DEPENDENCIES:
   - Kingfisher (~> 5.0)
   - MagazineLayout
+  - NightNight
   - SwiftEntryKit (= 1.2.3)
   - Wendy (~> 0.5.0)
 
@@ -18,6 +20,7 @@ SPEC REPOS:
   trunk:
     - Kingfisher
     - MagazineLayout
+    - NightNight
     - QuickLayout
     - SwiftEntryKit
     - Wendy
@@ -25,10 +28,11 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
   MagazineLayout: 343e50e92513a892e92fb07ace34826552704e48
+  NightNight: 2a5550fdd9cf424b75ebaab022c26aaba35304c8
   QuickLayout: 07b45a72b10083fee3f095990cfed1c1e7b27f0a
   SwiftEntryKit: 340713c2e4a6662c5149629990bf1088bf5f0389
   Wendy: fa67585a87c997c46314911e28b1838ab2b53aa1
 
-PODFILE CHECKSUM: 6e01f5e5e99e650f10c0625811f7add35eaa8e06
+PODFILE CHECKSUM: 739e0b6f440f330d7418d16ea582e492f2e764d3
 
 COCOAPODS: 1.9.1

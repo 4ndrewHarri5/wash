@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher" "${PODS_CONFIGURATION_BUILD_DIR}/MagazineLayout" "${PODS_CONFIGURATION_BUILD_DIR}/QuickLayout" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftEntryKit" "${PODS_CONFIGURATION_BUILD_DIR}/Wendy"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher" "${PODS_CONFIGURATION_BUILD_DIR}/MagazineLayout" "${PODS_CONFIGURATION_BUILD_DIR}/NightNight" "${PODS_CONFIGURATION_BUILD_DIR}/QuickLayout" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftEntryKit" "${PODS_CONFIGURATION_BUILD_DIR}/Wendy"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MagazineLayout/MagazineLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QuickLayout/QuickLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftEntryKit/SwiftEntryKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Wendy/Wendy.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MagazineLayout/MagazineLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/NightNight/NightNight.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QuickLayout/QuickLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftEntryKit/SwiftEntryKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Wendy/Wendy.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "Accelerate" -framework "CFNetwork" -framework "CoreData" -framework "Kingfisher" -framework "MagazineLayout" -framework "QuickLayout" -framework "SwiftEntryKit" -framework "UIKit" -framework "Wendy"
+OTHER_LDFLAGS = $(inherited) -framework "Accelerate" -framework "CFNetwork" -framework "CoreData" -framework "Kingfisher" -framework "MagazineLayout" -framework "NightNight" -framework "QuickLayout" -framework "SwiftEntryKit" -framework "UIKit" -framework "Wendy"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

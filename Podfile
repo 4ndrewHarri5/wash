@@ -16,7 +16,8 @@ target 'wash' do
   
   ## themes
   # - dark mode
-  #pod "FluentDarkModeKit"
+  #pod "FluentDarkModeKit" #does not work
+  pod 'NightNight'
   
   ## components
   # - swift entry kit
